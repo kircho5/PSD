@@ -1,0 +1,138 @@
+footer {
+    background-color: #7f7770;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .title {
+    display: flex;
+    max-width: 35%;
+    flex-direction: column;
+}
+footer .container {
+    padding: 180px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+footer .container h4 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+footer .container p {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+footer .list-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer .list-wrapper ul {
+    font-size: 24px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .list-wrapper h4 {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-bottom: 30px;
+}
+
+footer .container div span {
+    display: inline-block;
+    margin-top: 25px;
+    width: 100%;
+}
+
+footer .container div span a {
+    font-size: 25px;
+    color: #7f7770;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 10px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+
+footer .container div span a i {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1200px) {
+    footer .container {
+        padding: 140px 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    footer .list-wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    footer .container {
+        padding: 90px 20px;
+        gap: 40px;
+    }
+
+    footer .container p {
+        font-size: 18px;
+    }
+
+    footer .list-wrapper ul {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    footer .container {
+        flex-direction: column;
+        padding: 90px 20px;
+        gap: 40px;
+    }
+
+    footer .container p {
+        font-size: 18px;
+    }
+
+    footer .list-wrapper ul {
+        font-size: 18px;
+    }
+    footer .title {
+        max-width: 80%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    footer .list-wrapper {
+        flex-direction: column;
+    }
+}

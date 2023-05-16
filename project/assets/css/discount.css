@@ -1,0 +1,114 @@
+#discount .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#discount .container .boxOne {
+    width: 50%;
+    height: auto;
+    background-image: url(../images/discount.png);
+    background-size: cover;
+}
+
+#discount .container .boxOne img {
+    visibility: hidden;
+}
+
+#discount .container .boxTwo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    padding: 60px;
+    background-color: #7f7770;
+}
+
+#discount .container .boxTwo h3 {
+    margin-top: 100px;
+    font-size: 58px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+#discount .container .boxTwo p {
+    padding: 50px 0px;
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+#discount .container .boxTwo button {
+    border: none;
+    font-size: 29px;
+    letter-spacing: 6px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    width: 334px;
+    height: 75px;
+    border-radius: 37px;
+    background-color: #e2a355;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #discount .container .boxTwo h3 {
+        margin-top: 40px;
+    }
+
+    #discount .container .boxTwo button {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #discount .container .boxTwo h3 {
+        font-size: 45px;
+    }
+
+    #discount .container .boxTwo p {
+        font-size: 23px;
+    }
+
+    #discount .container .boxTwo h3 {
+        margin-top: 10px;
+    }
+
+    #discount .container .boxTwo button {
+        margin-bottom: 10px;
+    }
+
+    #discount .container .boxTwo button {
+        border: none;
+        font-size: 23px;
+        letter-spacing: 5px;
+        line-height: 21px;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #discount .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #discount .container .boxTwo {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #discount .container .boxTwo button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

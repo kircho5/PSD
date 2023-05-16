@@ -1,0 +1,141 @@
+#sectionOne {
+    text-align: center;
+    padding: 100px;
+    background-image: url(../images/Shadow\ .svg);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+#sectionOne h2 {
+    font-size: 63px;
+    text-transform: uppercase;
+    color: #e2a355;
+    font-weight: 800;
+    font-family: "Open Sans";
+    margin-bottom: 40px;
+}
+
+#sectionOne p {
+    font-size: 27px;
+    color: #7f7770;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+#sectionOne .container {
+    display: flex;
+    gap: 70px;
+    padding-bottom: 90px;
+    margin: 70px 0px;
+}
+#sectionOne img {
+    width: 100%;
+    height: 60%;
+}
+
+#sectionOne .container .post-wrapper h4 {
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    padding-bottom: 20px;
+}
+
+#sectionOne .container p {
+    text-align: left;
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+#sectionOne .text-wrapper {
+    text-align: left;
+    padding: 70px 10px;
+    background-color: #7f7770;
+}
+
+#sectionOne .btn {
+    width: 334px;
+    height: 75px;
+    border-radius: 38px;
+    background-color: #7f7770;
+    font-size: 23px;
+    letter-spacing: 5px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Open Sans";
+    border: none;
+}
+@media only screen and (max-width: 1200px) {
+    #sectionOne .text-wrapper {
+        padding: 30px 10px;
+    }
+
+    #sectionOne img {
+        width: 100%;
+        height: 50%;
+    }
+
+    #sectionOne .container {
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #sectionOne {
+        padding: 50px;
+    }
+
+    #sectionOne .text-wrapper {
+        padding: 30px 10px;
+    }
+
+    #sectionOne img {
+        width: 100%;
+        height: 50%;
+    }
+
+    #sectionOne .container {
+        padding-bottom: 10px;
+    }
+
+    #sectionOne .btn {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #sectionOne .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sectionOne .btn {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #sectionOne .btn {
+        width: 220px;
+        height: 70px;
+        border-radius: 35px;
+        background-color: #7f7770;
+        font-size: 20px;
+        letter-spacing: 3px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 800;
+        font-family: "Open Sans";
+        border: none;
+    }
+
+    #sectionOne .container {
+        margin-bottom: 20px;
+    }
+}

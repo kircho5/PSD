@@ -1,0 +1,94 @@
+#email {
+    background-color: #deb37e;
+    text-align: center;
+    padding: 180px 180px;
+}
+
+#email h2 {
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+#email p {
+    font-size: 30px;
+    color: #54524f;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#email .search-wrapper {
+    border-radius: 25%;
+    align-items: center;
+    font-size: 25px;
+    color: #54524f;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+#email .search-wrapper input {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    border: none;
+    width: 659px;
+    height: 63px;
+    background-color: #ffffff;
+}
+
+#email .search-wrapper button {
+    margin-left: -50px;
+    width: 222px;
+    height: 65px;
+    border-radius: 32px;
+    background-color: #54524f;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    border: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    #email {
+        padding: 75px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #email {
+        padding: 50px;
+    }
+
+    #email .search-wrapper button {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #email .search-wrapper input {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #email .search-wrapper input {
+        width: 200px;
+    }
+    #email {
+        padding: 10px;
+    }
+
+    #email .search-wrapper button {
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

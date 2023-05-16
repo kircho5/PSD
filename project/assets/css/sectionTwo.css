@@ -1,0 +1,49 @@
+#sectionTwo {
+    background-color: #99928d;
+    text-align: center;
+    padding: 180px 180px;
+    background-image: url(../images/Shadow\ .svg);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+#sectionTwo .container h3 {
+    font-size: 58px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    padding-bottom: 50px;
+}
+
+#sectionTwo .container p {
+    font-size: 29px;
+    color: #dbdbdb;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+@media only screen and (max-width: 1200px) {
+    #sectionTwo {
+        padding: 130px 130px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #sectionTwo {
+        padding: 100px 100px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #sectionTwo {
+        padding: 20px 20px;
+    }
+
+    #sectionTwo .container h3 {
+        font-size: 45px;
+    }
+    #sectionTwo .container p {
+        font-size: 20px;
+    }
+}

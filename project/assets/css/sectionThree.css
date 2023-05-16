@@ -1,0 +1,63 @@
+#sectionThree {
+    display: flex;
+    background-image: url(../images/section3img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+}
+
+#sectionThree h2 {
+    text-transform: uppercase;
+    padding-right: 40px;
+    word-break: keep-all;
+    margin: 30px;
+    max-width: 35%;
+    font-size: 76px;
+    color: #54524f;
+    font-weight: 1000;
+    font-style: italic;
+    font-family: "Open Sans";
+    text-align: right;
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.36));
+}
+
+#sectionThree .first-word {
+    text-transform: uppercase;
+    font-size: 76px;
+    color: #deb37e;
+    font-weight: 1000;
+    font-style: italic;
+    font-family: "Open Sans";
+    text-align: right;
+}
+
+@media only screen and (max-width: 992px) {
+    #sectionThree {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #sectionThree {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #sectionThree h2 {
+        padding-right: 0px;
+        max-width: 90%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #sectionThree .first-word {
+        font-size: 60px;
+    }
+    #sectionThree h2 {
+        font-size: 60px;
+    }
+}
